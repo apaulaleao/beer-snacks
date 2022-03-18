@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beer&Snacks</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#" ><img src="./assets/img/dog.png" class="logo"/>
+            <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Beer</a></li>
+            <li><a href="#">Snacks</a></li>
+            <li><a href="#">Fale Conosco</a></li>
+            </ul>
+        </header>
+        <div class ='content'>
+            <div class ='textBox'>
+                <h2>Não é só um delivery!<br> Somos a <span>Beer & Snacks 
+
+                </span> </h2>
+                <p>Chegou a hora de curtir aquela cervejinha gelada com sua familia , seus amigos e seu pet que estava louco te esperando! Aqui na <strong>Beer & Snacks</strong> você não vai precisar ir pra cozinha. Além de super geladas, todas as nossas cervejas acompanham petiscos. E pra noite ficar mais divertida e feliz, seu pet também ganha um saboroso <strong>SNACK!</strong>
+                    <br>
+                    <br>
+                <i>Seja Feliz com todos os seus amigos! </i></p>
+                <a href="#">Chama no ZAP!</a>
+            </div>
+            <div class ='imgBox'>
+                <img src="./assets/img/combo11.png" class="beer1"/>
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src ="./assets/img/combo11.png" onclick="imgSlider('./assets/img/combo11.png') ;changeCircleColor('#f6fa22')"></li>
+            <li><img src ="./assets/img/combo13.png" onclick="imgSlider('./assets/img/combo13.png') ;changeCircleColor('#88ff59d2')"></li>
+            <li><img src ="./assets/img/combo12.png"onclick="imgSlider('./assets/img/combo12.png') ;changeCircleColor('#f6fa22')"></li>
+           
+        </ul>
+        <ul class="sci">
+            <li><a href="#" class="fa fa-facebook"></a></li>
+            <li><a href="#" class="fa fa-twitter"></a></li>
+            <li><a href="#" class="fa fa-youtube"></a></li>
+
+        </ul>
+
+    </section>
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.beer1').src=anything;
+        }
+
+        function changeCircleColor(color){
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
+       }
+    
+    </script>
+</body>
+</html>
