@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+};
+section{
+    position: relative;
+    width:100%;
+    min-height:100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    margin-left: 20px;
+    border: 1px solid black;
+}
+header{
+    top:0;
+    left:0;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;   
+
+}
+
+header .logo{
+  position: relative; 
+  width: 140px;
+}
+
+
+header ul {
+    position:relative;
+    display: flex;
+
+}
+header ul li{
+    list-style: none;
+    
+}
+
+header ul li a{
+    display:inline-block;
+    color: rgb(245, 63, 8);
+    font-weight: 500;
+    margin-left:  40px;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+}
+header ul li a:hover{
+    color:rgb(4, 4, 70);
+    transition: 0.5s;
+}
+.content{
+   position: relative;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.content .textBox{
+    padding: 20px;
+    max-width: 800px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.content .textBox h2{
+    color:#333;
+    font-size: 3.2em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.content .textBox h2 span{
+    color: #EB6219;
+    font-size: 1.0em;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+.content .textBox p{
+    color: #333;
+    padding-top: 20px;
+
+
+}
+.content .textBox i{
+    font-weight: 600;
+    color: #333;
+}
+.content .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #3dc508;
+    color:#fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.content .textBox a:hover{
+    transform: translateY(-8px);
+    transition: 0.5s;
+}
+.content .imgBox{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 10px;
+}
+
+.content .imgBox img{
+    max-width: 430px;
+    margin-right: -30px;
+}
+.thumb{
+  position: absolute;
+  left:50%;
+  bottom: -60px;
+  transform: translateX(-50%);
+  display: flex;
+
+}
+.thumb li{
+    list-style:none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.thumb li:hover{
+    transform: translateY(-15px);
+}
+.thumb li img{
+    max-width: 140px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;  
+      border-radius: 50px;
+
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 50px;
+
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+    border-radius: 50px;
+  }
+  .sci{
+      position: absolute;
+      top:50%;
+      right: 30px;
+      transform: translateY(-50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+  }
+  .sci li{
+      list-style: none;
+  }
+  .sci li a{
+      display: inline-block;
+      margin:5px 0;
+      transform: scale(0.6);
+  }
+
+  .circle{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #f6fa22;
+      clip-path: circle(600px at right 850px);
+      margin-top: 60px;
+  }
+  .circle{
+      color:#88ff59d2
+  }
+
+  Chegou a hora de curtir aquela cervejinha gelada com sua família , seus amigos e seu pet que estava louco te esperando! Aqui na Beer & Snacks você não vai precisar ir pra cozinha.
+
+Além de super geladas, todas as nossas cervejas acompanham petiscos. E pra noite ficar ainda mais divertida e feliz, seu pet também ganha um saboroso SNACK!
